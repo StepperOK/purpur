@@ -16,11 +16,11 @@ function App() {
       { transform: "translateY(75px)" },
     ],
     timing: {
-      delay: 500, // Start with a 500ms delay
-      duration: 1000, // Run for 1000ms
-      iterations: Infinity, // Repeat once
-      direction: "alternate", // Run the animation forwards and then backwards
-      easing: "ease-in-out", // Use a fancy timing function
+      delay: 500,
+      duration: 1000,
+      iterations: Infinity,
+      direction: "alternate",
+      easing: "ease-in-out",
     },
   });
 
