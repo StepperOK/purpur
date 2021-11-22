@@ -132,6 +132,7 @@
 
 .popup-content {
   border-radius: 10px;
+  width: 70%;
 }
 
 .popup_inner {
@@ -177,7 +178,9 @@
     outline: none;
   }
 }
-
+.actions {
+  text-align: center;
+}
 
 @media screen and (max-width: 600px) {
   nav {
